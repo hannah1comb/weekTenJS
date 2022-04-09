@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=stylesheet href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="weekTen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   </head>
+
+<body class = 'container'>
+    <style>
+        body {
+          background-image: url("pexels-mingche-lee-3720778.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+    <h1 id="h1font" style="font-family: 'Cormorant Garamond', serif;">Please Enter Your Idea for Atticus Prep's 2022 School Field Trip</h1>
+
+    <div> 
+    <table id="tableStyle" class="table table-dark table-hover">
+ 
+        <tr>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Idea for School Field Trip</th>
+        </tr>
+    </table>
+    </div>  
+
+    <div>
+        <form id="formStyle" class="form-horizontal">
+            <div class="form-group">
+              <div class="col-sm">
+                <input type="text" class="form-control" id="first-name" placeholder="Enter First Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm">
+                <input type="text" class="form-control" id="last-name" placeholder="Enter Last Name">
+              </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm">
+                  <input type="text" class="form-control" id="idea" placeholder="Enter Your Idea for the School Field Trip">
+                </div>
+            
+            </div>
+            
+          
+            <input type="button" id="add" class="btn btn-primary form-control" value="Create"/>
+            
+           
+          </form>
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="weekTen.js"></script>
+
+</body>
+</html>
